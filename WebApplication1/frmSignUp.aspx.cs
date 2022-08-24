@@ -13,5 +13,10 @@ namespace WebApplication1
         {
 
         }
+
+        protected void btnSignUp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm1.aspx");
+        }
     }
 }

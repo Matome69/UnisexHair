@@ -21,7 +21,7 @@
             <asp:TextBox ID="tbPassword" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnLogin" runat="server" Height="30px" Text="Login" Width="119px" />
+            <asp:Button ID="btnLogin" runat="server" Height="30px" Text="Login" Width="119px" OnClick="btnLogin_Click" />
         </div>
     </form>
 </body>

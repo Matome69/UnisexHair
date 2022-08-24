@@ -11,7 +11,7 @@
         }
     </style>
 </head>
-<body style="height: 500px; width: 1200px">
+<body style="height: 308px; width: 1200px">
     <form id="form1" runat="server">
         <div class="auto-style1">
             <asp:Label ID="Label1" runat="server" Text="Order"></asp:Label>
