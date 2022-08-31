@@ -22,6 +22,10 @@
             <br />
             <br />
             <asp:Button ID="btnLogin" runat="server" Height="30px" Text="Login" Width="119px" OnClick="btnLogin_Click" />
+            <br />
+            <br />
+            Don&#39;t have a username?&nbsp;
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/frmSignUp.aspx">Sign Up</asp:HyperLink>
         </div>
     </form>
 </body>
